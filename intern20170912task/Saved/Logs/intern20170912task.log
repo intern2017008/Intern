@@ -1,27 +1,9 @@
-﻿Log file open, 09/14/17 05:57:11
+﻿Log file open, 09/14/17 06:41:50
 LogInit:Display: Running engine for game: intern20170912task
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(945117506) SRandInit(945117506).
+LogInit:Display: RandInit(-554975852) SRandInit(-554975851).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.140403
-LogInit:Warning: Incompatible or missing module: UE4Editor-intern20170912task.dll
-Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe intern20170912task Development Win64 -project="C:/Users/shika/Documents/MyWork/Intern/intern20170912task/intern20170912task.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Creating makefile for intern20170912task (no existing makefile)
-Performing full C++ include scan (no include cache file)
-@progress push 5%
-@progress pop
-Performing 8 actions (2 in parallel)
-[2/8] Resource ModuleVersionResource.rc.inl
-[3/8] Resource PCLaunch.rc
-SharedPCH.Engine.cpp
-intern20170912task.cpp
-PauseMenurWidget.cpp
-intern20170912task.generated.cpp
-[7/8] Link UE4Editor-intern20170912task.dll
-[8/8] Link UE4Editor-intern20170912task.lib
-   Creating library C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-intern20170912task.lib and object C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-intern20170912task.exp
-   Creating library C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-intern20170912task.suppressed.lib and object C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-intern20170912task.suppressed.exp
-Total build time: 52.81 seconds (Local executor: 45.08 seconds)
+LogStats: Stats thread started at 0.129235
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -68,773 +50,228 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.13-20.58.09:686][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.13-20.58.09:686][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.13-20.58.09:820][  0]LogInit: Computer: DESKTOP-G2BABS6
-[2017.09.13-20.58.09:820][  0]LogInit: User: sksn
-[2017.09.13-20.58.09:820][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.13-20.58.09:820][  0]LogInit: High frequency timer resolution =2.648439 MHz
-[2017.09.13-20.58.09:822][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.13-20.58.09:822][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.13-20.58.09:822][  0]LogMemory: Process Physical Memory: 279.73 MB used, 279.73 MB peak
-[2017.09.13-20.58.09:822][  0]LogMemory: Process Virtual Memory: 267.70 MB used, 267.70 MB peak
-[2017.09.13-20.58.09:822][  0]LogMemory: Physical Memory: 4964.15 MB used,  3152.94 MB free, 8117.09 MB total
-[2017.09.13-20.58.09:822][  0]LogMemory: Virtual Memory: 708.05 MB used,  3152.94 MB free, 134217728.00 MB total
-[2017.09.13-20.58.10:646][  0]LogInit: Using OS detected language (ja-JP).
-[2017.09.13-20.58.10:646][  0]LogInit: Using OS detected locale (ja-JP).
-[2017.09.13-20.58.10:821][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2017.09.13-20.58.15:702][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.13-20.58.15:732][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2017.09.13-20.58.15:732][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.09.13-20.58.15:734][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.13-20.58.15:734][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.13-20.58.15:734][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.13-20.58.15:743][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.13-20.58.15:743][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.13-20.58.15:743][  0]LogWindows: EnumDisplayDevices:
-[2017.09.13-20.58.15:744][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2017.09.13-20.58.15:744][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2017.09.13-20.58.15:744][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2017.09.13-20.58.15:744][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.09.13-20.58.15:744][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2017.09.13-20.58.15:745][  0]LogD3D11RHI:   Driver Version: 21.20.16.4636 (internal:21.20.16.4636, unified:21.20.16.4636)
-[2017.09.13-20.58.15:745][  0]LogD3D11RHI:      Driver Date: 3-21-2017
-[2017.09.13-20.58.15:745][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.13-20.58.15:752][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.13-20.58.15:840][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2017.09.13-20.58.15:858][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Intermediate/Shaders/WorkingDirectory/6168/).
-[2017.09.13-20.58.15:858][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shika/AppData/Local/Temp/UnrealShaderWorkingDir/B85AC17D40679A19D89BDFB11258F72F/'.
-[2017.09.13-20.58.15:860][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.13-20.58.19:864][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.13-20.58.19:968][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.13-20.58.20:031][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.13-20.58.20:083][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.13-20.58.20:142][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.13-20.58.20:193][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.13-20.58.20:247][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.13-20.58.20:299][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.13-20.58.20:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.13-20.58.20:401][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.13-20.58.20:454][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.13-20.58.20:501][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.13-20.58.20:550][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.13-20.58.20:599][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.13-20.58.20:646][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.13-20.58.20:745][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.13-20.58.20:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.13-20.58.20:782][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.13-20.58.20:900][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.13-20.58.20:932][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.13-20.58.20:983][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.13-20.58.21:031][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.13-20.58.21:081][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.13-20.58.21:135][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.13-20.58.21:136][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.13-20.58.21:897][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.13-20.58.23:333][  0]LogDerivedDataCache: Loaded boot cache 1.43s 90MB C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.13-20.58.23:333][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.09.13-20.58.23:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.13-20.58.23:334][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.13-20.58.23:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.13-20.58.23:334][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.13-20.58.23:427][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.13-20.58.23:443][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.13-20.58.23:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.13-20.58.23:497][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.13-20.58.23:544][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.13-20.58.23:544][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.13-20.58.26:340][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.13-20.58.26:687][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.13-20.58.27:103][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.13-20.58.27:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.13-20.58.27:240][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.13-20.58.27:240][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.13-20.58.27:240][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.13-20.58.30:383][  0]LogNetVersion: intern20170912task , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3196747740)
-[2017.09.13-20.58.30:620][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
-[2017.09.13-20.58.30:743][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.094079 seconds
-[2017.09.13-20.58.30:751][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.09.13-20.58.30:751][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.09.13-20.58.30:752][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.13-20.58.30:831][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.13-20.58.39:084][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.13-20.58.39:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.13-20.58.40:118][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.13-20.58.40:707][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.09.13-20.58.40:881][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.09.13-20.58.40:945][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.09.13-20.58.41:014][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.09.13-20.58.42:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.13-20.58.43:011][  0]LogEngine: Initializing Engine...
-[2017.09.13-20.58.43:016][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.13-20.58.43:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.13-20.58.43:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.13-20.58.43:544][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.13-20.58.43:581][  0]LogInit: No audio devices found!
-[2017.09.13-20.58.43:696][  0]LogDerivedDataCache: Saved boot cache 0.11s 90MB C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.13-20.58.43:718][  0]LogInit: Texture streaming: Enabled
-[2017.09.13-20.58.44:032][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.13-20.58.44:888][  0]LogInit: Transaction tracking system initialized
-[2017.09.13-20.58.45:494][  0]BlueprintLog: New page: エディタの読み込み
-[2017.09.13-20.58.47:133][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
-[2017.09.13-20.58.48:099][  0]LogConsoleResponse:Display: 
-[2017.09.13-20.58.48:377][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.13-20.58.48:377][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.13-20.58.49:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/' took 0.01s
-[2017.09.13-20.58.50:103][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.09.13-20.58.50:130][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.09.13-20.58.50:151][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.09.13-20.58.50:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.09.13-20.58.50:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.09.13-20.58.50:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.09.13-20.58.50:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.09.13-20.58.50:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.09.13-20.58.50:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.09.13-20.58.50:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.09.13-20.58.50:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.09.13-20.58.50:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.09.13-20.58.50:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.09.13-20.58.50:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.09.13-20.58.50:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.09.13-20.58.50:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.09.13-20.58.50:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.09.13-20.58.50:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.09.13-20.58.50:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.09.13-20.58.50:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.09.13-20.58.50:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Fire01.uasset"
-[2017.09.13-20.58.50:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.09.13-20.58.50:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.09.13-20.58.50:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.09.13-20.58.50:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Light01.uasset"
-[2017.09.13-20.58.50:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.09.13-20.58.50:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Light02.uasset"
-[2017.09.13-20.58.50:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.09.13-20.58.50:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.09.13-20.58.50:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.09.13-20.58.50:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.09.13-20.58.50:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.09.13-20.58.50:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.09.13-20.58.50:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.09.13-20.58.50:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.09.13-20.58.50:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.09.13-20.58.50:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Steam01.uasset"
-[2017.09.13-20.58.50:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.09.13-20.58.50:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.09.13-20.58.50:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.09.13-20.58.50:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.09.13-20.58.50:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.09.13-20.58.50:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.09.13-20.58.50:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.09.13-20.58.50:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.09.13-20.58.50:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.09.13-20.58.51:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.09.13-20.58.51:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.09.13-20.58.51:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.09.13-20.58.51:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.09.13-20.58.51:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.09.13-20.58.51:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.09.13-20.58.51:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.09.13-20.58.51:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.09.13-20.58.51:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.09.13-20.58.51:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.09.13-20.58.51:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.09.13-20.58.51:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.09.13-20.58.51:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.09.13-20.58.51:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/StarterMap.umap"
-[2017.09.13-20.58.51:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.09.13-20.58.51:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.09.13-20.58.51:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.09.13-20.58.51:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.09.13-20.58.51:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.09.13-20.58.51:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.09.13-20.58.51:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.09.13-20.58.52:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.09.13-20.58.52:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.09.13-20.58.52:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.09.13-20.58.52:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.09.13-20.58.52:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.09.13-20.58.52:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.09.13-20.58.52:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.09.13-20.58.52:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.09.13-20.58.52:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.09.13-20.58.52:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.09.13-20.58.52:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.09.13-20.58.52:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.09.13-20.58.52:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.09.13-20.58.52:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.09.13-20.58.52:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.09.13-20.58.52:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.09.13-20.58.52:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.09.13-20.58.52:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.09.13-20.58.52:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.09.13-20.58.52:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.09.13-20.58.52:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.09.13-20.58.52:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.09.13-20.58.52:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.09.13-20.58.52:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.09.13-20.58.52:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.09.13-20.58.52:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.09.13-20.58.52:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.09.13-20.58.52:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.09.13-20.58.52:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.09.13-20.58.52:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.09.13-20.58.52:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.09.13-20.58.52:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.09.13-20.58.52:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.09.13-20.58.52:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.09.13-20.58.52:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.09.13-20.58.52:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.09.13-20.58.52:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.09.13-20.58.52:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.09.13-20.58.52:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.09.13-20.58.52:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.09.13-20.58.52:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.09.13-20.58.52:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.09.13-20.58.52:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.09.13-20.58.52:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.09.13-20.58.52:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.09.13-20.58.52:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.09.13-20.58.52:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.09.13-20.58.52:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.09.13-20.58.52:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.09.13-20.58.52:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.09.13-20.58.52:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.09.13-20.58.52:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.09.13-20.58.52:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.09.13-20.58.52:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.09.13-20.58.52:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.09.13-20.58.52:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.09.13-20.58.52:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.09.13-20.58.52:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.09.13-20.58.52:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Door.uasset"
-[2017.09.13-20.58.52:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.09.13-20.58.52:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.09.13-20.58.52:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.09.13-20.58.52:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.09.13-20.58.52:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.09.13-20.58.53:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.09.13-20.58.53:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.09.13-20.58.53:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.09.13-20.58.53:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.09.13-20.58.53:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.09.13-20.58.53:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.09.13-20.58.53:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.09.13-20.58.53:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.09.13-20.58.53:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.09.13-20.58.53:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.09.13-20.58.53:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.09.13-20.58.53:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.09.13-20.58.53:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.09.13-20.58.53:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.09.13-20.58.53:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.09.13-20.58.53:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.09.13-20.58.53:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.09.13-20.58.53:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.09.13-20.58.53:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.09.13-20.58.53:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.09.13-20.58.53:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.09.13-20.58.53:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.09.13-20.58.53:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.09.13-20.58.53:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.09.13-20.58.53:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.09.13-20.58.53:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.09.13-20.58.53:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.09.13-20.58.53:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.09.13-20.58.53:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.09.13-20.58.53:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.09.13-20.58.53:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.09.13-20.58.53:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.09.13-20.58.53:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.09.13-20.58.53:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.09.13-20.58.53:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.09.13-20.58.53:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.09.13-20.58.53:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.09.13-20.58.53:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.09.13-20.58.53:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.09.13-20.58.53:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.09.13-20.58.53:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.09.13-20.58.53:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.09.13-20.58.53:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.09.13-20.58.53:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.09.13-20.58.53:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.09.13-20.58.53:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.09.13-20.58.53:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.09.13-20.58.53:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.09.13-20.58.54:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.09.13-20.58.54:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.09.13-20.58.54:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.09.13-20.58.54:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.09.13-20.58.54:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.09.13-20.58.54:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.09.13-20.58.54:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.09.13-20.58.54:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.09.13-20.58.54:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.09.13-20.58.54:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.09.13-20.58.54:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.09.13-20.58.54:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.09.13-20.58.54:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.09.13-20.58.54:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.09.13-20.58.54:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.09.13-20.58.54:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.09.13-20.58.54:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.09.13-20.58.55:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.09.13-20.58.55:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.09.13-20.58.55:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.09.13-20.58.55:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.09.13-20.58.55:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.09.13-20.58.55:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.09.13-20.58.56:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.09.13-20.58.56:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.09.13-20.58.56:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.09.13-20.58.56:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.09.13-20.58.56:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.09.13-20.58.56:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.09.13-20.58.56:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.09.13-20.58.56:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.09.13-20.58.57:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.09.13-20.58.57:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.09.13-20.58.57:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.09.13-20.58.57:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.09.13-20.58.57:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.09.13-20.58.57:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.09.13-20.58.57:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.09.13-20.58.57:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.09.13-20.58.57:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.09.13-20.58.57:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.09.13-20.58.57:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.09.13-20.58.57:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.09.13-20.58.57:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.09.13-20.58.58:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.09.13-20.58.58:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.09.13-20.58.58:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.09.13-20.58.59:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.09.13-20.58.59:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.09.13-20.58.59:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.09.13-20.58.59:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.09.13-20.58.59:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.09.13-20.58.59:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.09.13-20.59.00:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.09.13-20.59.00:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.09.13-20.59.00:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.09.13-20.59.00:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.09.13-20.59.00:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.09.13-20.59.00:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.09.13-20.59.00:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.09.13-20.59.00:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.09.13-20.59.00:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.09.13-20.59.00:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.09.13-20.59.00:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.09.13-20.59.00:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.09.13-20.59.01:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.09.13-20.59.01:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.09.13-20.59.01:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.09.13-20.59.01:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.09.13-20.59.01:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.09.13-20.59.01:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.09.13-20.59.01:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.09.13-20.59.01:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.09.13-20.59.01:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.09.13-20.59.01:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.09.13-20.59.01:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.09.13-20.59.01:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.09.13-20.59.01:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.09.13-20.59.01:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.09.13-20.59.02:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.09.13-20.59.02:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.09.13-20.59.02:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.09.13-20.59.02:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.09.13-20.59.02:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.09.13-20.59.02:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.09.13-20.59.02:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.09.13-20.59.02:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.09.13-20.59.02:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.09.13-20.59.02:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.09.13-20.59.02:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.09.13-20.59.02:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.09.13-20.59.02:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.09.13-20.59.02:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.09.13-20.59.02:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.09.13-20.59.02:697][  0]LogStaticMesh: スタティックメッシュ Floor_400x400 をビルド中...
-[2017.09.13-20.59.02:704][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2017.09.13-20.59.02:987][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.09.13-20.59.04:933][  0]LogSavePackage: Save=104.67ms
-[2017.09.13-20.59.04:934][  0]LogSavePackage: Moving '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/Floor_400x400AC245215411E6F6488A1E7B2E5FE1CDF.tmp' to '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.09.13-20.59.04:956][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.09.13-20.59.04:957][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.09.13-20.59.04:969][  0]Cmd: MAP LOAD FILE="../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.13-20.59.04:971][  0]LightingResults: New page: ライティングのビルド
-[2017.09.13-20.59.05:366][  0]MapCheck: New page: マップをチェック
-[2017.09.13-20.59.05:366][  0]LightingResults: New page: <何も選択されていません>
-[2017.09.13-20.59.07:016][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:016][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:016][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:017][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:017][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:017][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:017][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:029][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:029][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:030][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:674][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:674][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.07:813][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.09.13-20.59.08:723][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.09.13-20.59.08:742][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.09.13-20.59.08:967][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.09.13-20.59.08:984][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2017.09.13-20.59.09:463][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2017.09.13-20.59.09:468][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
-[2017.09.13-20.59.09:501][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2017.09.13-20.59.09:991][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.13-20.59.10:063][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile needed to have new flag set bUsedWithSkeletalMesh !
-[2017.09.13-20.59.10:070][  0]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
-[2017.09.13-20.59.10:296][  0]MapCheck:Warning: 警告 M_Tech_Hex_Tile Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. 修正
-[2017.09.13-20.59.10:325][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.13-20.59.10:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.13-20.59.10:572][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 1 警告、完了に 149.916ミリ秒かかりました。
-[2017.09.13-20.59.10:604][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.636
-[2017.09.13-20.59.11:207][  0]LogCollectionManager: Loaded 0 collections in 0.002013 seconds
-[2017.09.13-20.59.11:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/Collections/' took 0.01s
-[2017.09.13-20.59.11:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Developers/sksn/Collections/' took 0.01s
-[2017.09.13-20.59.11:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Collections/' took 0.01s
-[2017.09.13-20.59.11:375][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.09.13-20.59.11:397][  0]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2330 classes and 493 folders.
-[2017.09.13-20.59.11:549][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
-[2017.09.13-20.59.12:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0027 seconds. Added 0 classes and 0 folders.
-[2017.09.13-20.59.12:446][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2017.09.13-20.59.12:569][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.13-20.59.12:605][  0]LogSlate: Took 0.010185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.13-20.59.12:641][  0]LogSlate: Took 0.033491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.09.13-20.59.12:662][  0]LogSlate: Took 0.020189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.13-20.59.12:677][  0]LogSlate: Took 0.005360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.13-20.59.12:874][  0]LogRenderer: Reallocating scene render targets to support 944x524 NumSamples 1 (Frame:1).
-[2017.09.13-20.59.13:786][  0]LogSlate: Took 0.007045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.13-20.59.14:090][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2017.09.13-20.59.14:090][  0]LogLoad: (Engine Initialization) Total time: 123.73 seconds
-[2017.09.13-20.59.14:090][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.69 seconds
-[2017.09.13-20.59.14:090][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.13-20.59.14:117][  0]LogOcInput: OculusInput pre-init called
-[2017.09.13-20.59.14:117][  0]LogHMD: Starting GearVRController plugin
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ReturnTitleButton': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ReturnGameButton': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_PauseMenu': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'K2Node_Event_InDeltaTime': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'K2Node_Event_MyGeometry': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
-[2017.09.13-20.59.14:120][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
-[2017.09.13-20.59.14:121][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'Tick': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.14:121][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'InDeltaTime': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:Tick
-[2017.09.13-20.59.14:121][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'MyGeometry': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:Tick
-[2017.09.13-20.59.14:121][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'UberGraphFrame': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
-[2017.09.13-20.59.14:193][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.13-20.59.14:481][  2]LogAssetRegistry: Asset discovery search completed in 43.8846 seconds
-[2017.09.13-20.59.14:485][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.13-20.59.14:485][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2017.09.13-20.59.44:281][ 21]LogTemp: Repeting last play command: 選択ビューポート
-[2017.09.13-20.59.44:818][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.09.13-20.59.44:826][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.13-20.59.44:836][ 21]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/09/14 14:59:44)
-[2017.09.13-20.59.44:838][ 21]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.09.13-20.59.44:929][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091281s)
-[2017.09.13-20.59.44:930][ 21]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.13-20.59.44:931][ 21]LogPlayLevel: PIE: World Init took: (0.001888s)
-[2017.09.13-20.59.44:933][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095926s)
-[2017.09.13-20.59.45:079][ 21]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.09.13-20.59.45:104][ 21]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.14-05.59.45
-[2017.09.13-20.59.45:140][ 21]LogWorld: Bringing up level for play took: 0.041437
-[2017.09.13-20.59.45:293][ 21]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0028 seconds. Added 11 classes and 0 folders.
-[2017.09.13-20.59.45:331][ 21]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.182のプレイ イン エディタの開始時間
-[2017.09.13-20.59.45:332][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.09.13-21.00.14:043][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.09.13-21.00.14:149][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.09.13-21.00.35:160][218]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:160][218]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:162][218]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:163][218]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:420][219]Cmd: QUIT_EDITOR
-[2017.09.13-21.00.35:511][219]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:511][219]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
-[2017.09.13-21.00.35:534][219]LogExit: Preparing to exit.
-[2017.09.13-21.00.36:422][219]LogDirectoryWatcher: A directory notification for 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/' was aborted.
-[2017.09.13-21.00.36:505][219]LogExit: Editor shut down
-[2017.09.13-21.00.36:513][219]LogExit: Transaction tracking system shut down
-[2017.09.13-21.00.36:911][219]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.13-21.00.36:911][219]LogExit: Object subsystem successfully closed.
-[2017.09.13-21.00.36:966][219]LogD3D11RHI: Shutdown
-[2017.09.13-21.00.36:966][219]LogD3D11RHI: CleanupD3DDevice
-[2017.09.13-21.00.37:175][219]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.13-21.00.37:235][219]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
-[2017.09.13-21.00.37:235][219]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2017.09.13-21.00.37:235][219]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2017.09.13-21.00.37:235][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2017.09.13-21.00.37:235][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2017.09.13-21.00.37:235][219]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.09.13-21.00.37:239][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2017.09.13-21.00.37:239][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2017.09.13-21.00.37:239][219]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2017.09.13-21.00.37:240][219]LogDirectoryWatcher: A directory notification for 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Collections/' was aborted.
-[2017.09.13-21.00.37:240][219]LogDirectoryWatcher: A directory notification for 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Developers/sksn/Collections/' was aborted.
-[2017.09.13-21.00.37:240][219]LogDirectoryWatcher: A directory notification for 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/Collections/' was aborted.
-[2017.09.13-21.00.37:240][219]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
-[2017.09.13-21.00.37:241][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
-[2017.09.13-21.00.37:241][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module BspMode (496)
-[2017.09.13-21.00.37:242][219]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
-[2017.09.13-21.00.37:244][219]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
-[2017.09.13-21.00.37:244][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2017.09.13-21.00.37:244][219]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
-[2017.09.13-21.00.37:245][219]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module Media (473)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2017.09.13-21.00.37:252][219]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
-[2017.09.13-21.00.37:253][219]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
-[2017.09.13-21.00.37:256][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
-[2017.09.13-21.00.37:256][219]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2017.09.13-21.00.37:256][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
-[2017.09.13-21.00.37:256][219]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
-[2017.09.13-21.00.37:256][219]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
-[2017.09.13-21.00.37:260][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
-[2017.09.13-21.00.37:262][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
-[2017.09.13-21.00.37:263][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
-[2017.09.13-21.00.37:265][219]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
-[2017.09.13-21.00.37:265][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
-[2017.09.13-21.00.37:288][219]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
-[2017.09.13-21.00.37:288][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
-[2017.09.13-21.00.37:288][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
-[2017.09.13-21.00.37:735][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
-[2017.09.13-21.00.37:735][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
-[2017.09.13-21.00.37:735][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
-[2017.09.13-21.00.37:770][219]LogModuleManager: Shutting down and abandoning module MergeActors (430)
-[2017.09.13-21.00.37:772][219]LogModuleManager: Shutting down and abandoning module SizeMap (428)
-[2017.09.13-21.00.37:772][219]LogModuleManager: Shutting down and abandoning module TreeMap (426)
-[2017.09.13-21.00.37:773][219]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
-[2017.09.13-21.00.37:774][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
-[2017.09.13-21.00.37:776][219]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
-[2017.09.13-21.00.37:777][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
-[2017.09.13-21.00.37:777][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
-[2017.09.13-21.00.37:777][219]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
-[2017.09.13-21.00.37:779][219]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
-[2017.09.13-21.00.37:779][219]LogModuleManager: Shutting down and abandoning module XmlParser (410)
-[2017.09.13-21.00.37:780][219]LogModuleManager: Shutting down and abandoning module Blutility (408)
-[2017.09.13-21.00.37:781][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
-[2017.09.13-21.00.37:781][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
-[2017.09.13-21.00.37:781][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
-[2017.09.13-21.00.37:781][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
-[2017.09.13-21.00.37:782][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
-[2017.09.13-21.00.37:784][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
-[2017.09.13-21.00.37:785][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
-[2017.09.13-21.00.37:787][219]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
-[2017.09.13-21.00.37:788][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
-[2017.09.13-21.00.37:843][219]LogModuleManager: Shutting down and abandoning module AutomationController (388)
-[2017.09.13-21.00.37:845][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
-[2017.09.13-21.00.37:847][219]LogModuleManager: Shutting down and abandoning module Layers (384)
-[2017.09.13-21.00.37:851][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
-[2017.09.13-21.00.37:852][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
-[2017.09.13-21.00.37:856][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
-[2017.09.13-21.00.37:857][219]LogModuleManager: Shutting down and abandoning module Persona (376)
-[2017.09.13-21.00.37:860][219]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
-[2017.09.13-21.00.37:860][219]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
-[2017.09.13-21.00.37:860][219]LogModuleManager: Shutting down and abandoning module Kismet (370)
-[2017.09.13-21.00.37:863][219]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
-[2017.09.13-21.00.37:863][219]LogModuleManager: Shutting down and abandoning module Toolbox (366)
-[2017.09.13-21.00.37:863][219]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
-[2017.09.13-21.00.37:864][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
-[2017.09.13-21.00.37:867][219]LogModuleManager: Shutting down and abandoning module OutputLog (360)
-[2017.09.13-21.00.37:868][219]LogModuleManager: Shutting down and abandoning module GammaUI (358)
-[2017.09.13-21.00.37:869][219]LogModuleManager: Shutting down and abandoning module Documentation (356)
-[2017.09.13-21.00.37:869][219]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2017.09.13-21.00.37:869][219]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2017.09.13-21.00.37:869][219]LogModuleManager: Shutting down and abandoning module Niagara (350)
-[2017.09.13-21.00.37:869][219]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module PortalServices (342)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module AIModule (336)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
-[2017.09.13-21.00.37:874][219]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
-[2017.09.13-21.00.37:875][219]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2017.09.13-21.00.38:084][219]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2017.09.13-21.00.38:120][219]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.09.13-21.00.38:120][219]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.09.13-21.00.38:120][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.09.13-21.00.38:121][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.09.13-21.00.38:125][219]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.09.13-21.00.38:125][219]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.09.13-21.00.38:126][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.09.13-21.00.38:128][219]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.09.13-21.00.38:132][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.09.13-21.00.38:132][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (278)
-[2017.09.13-21.00.38:132][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (276)
-[2017.09.13-21.00.38:133][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (274)
-[2017.09.13-21.00.38:135][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (272)
-[2017.09.13-21.00.38:136][219]LogModuleManager: Shutting down and abandoning module SourceControl (271)
-[2017.09.13-21.00.38:137][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (268)
-[2017.09.13-21.00.38:137][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (266)
-[2017.09.13-21.00.38:137][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (264)
-[2017.09.13-21.00.38:137][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (262)
-[2017.09.13-21.00.38:139][219]LogModuleManager: Shutting down and abandoning module MeshPaint (261)
-[2017.09.13-21.00.38:139][219]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2017.09.13-21.00.38:142][219]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2017.09.13-21.00.38:143][219]LogModuleManager: Shutting down and abandoning module MainFrame (256)
-[2017.09.13-21.00.38:143][219]LogModuleManager: Shutting down and abandoning module HotReload (255)
-[2017.09.13-21.00.38:144][219]LogDirectoryWatcher: A directory notification for 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Binaries/Win64' was aborted.
-[2017.09.13-21.00.38:146][219]LogModuleManager: Shutting down and abandoning module intern20170912task (250)
-[2017.09.13-21.00.38:146][219]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2017.09.13-21.00.38:147][219]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2017.09.13-21.00.38:147][219]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2017.09.13-21.00.38:147][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
-[2017.09.13-21.00.38:147][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
-[2017.09.13-21.00.38:147][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
-[2017.09.13-21.00.38:248][219]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
-[2017.09.13-21.00.38:350][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2017.09.13-21.00.38:354][219]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
-[2017.09.13-21.00.38:355][219]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
-[2017.09.13-21.00.38:355][219]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2017.09.13-21.00.38:357][219]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
-[2017.09.13-21.00.38:360][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.09.13-21.00.38:363][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
-[2017.09.13-21.00.38:363][219]LogModuleManager: Shutting down and abandoning module Paper2D (220)
-[2017.09.13-21.00.38:364][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
-[2017.09.13-21.00.38:364][219]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
-[2017.09.13-21.00.38:370][219]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
-[2017.09.13-21.00.38:370][219]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
-[2017.09.13-21.00.38:372][219]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
-[2017.09.13-21.00.38:372][219]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
-[2017.09.13-21.00.38:372][219]LogModuleManager: Shutting down and abandoning module VREditor (206)
-[2017.09.13-21.00.38:373][219]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
-[2017.09.13-21.00.38:375][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
-[2017.09.13-21.00.38:375][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
-[2017.09.13-21.00.38:380][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
-[2017.09.13-21.00.38:380][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
-[2017.09.13-21.00.38:383][219]LogModuleManager: Shutting down and abandoning module UMG (194)
-[2017.09.13-21.00.38:383][219]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
-[2017.09.13-21.00.38:386][219]LogModuleManager: Shutting down and abandoning module Sequencer (192)
-[2017.09.13-21.00.38:389][219]LogModuleManager: Shutting down and abandoning module AssetTools (190)
-[2017.09.13-21.00.38:396][219]LogModuleManager: Shutting down and abandoning module MessageLog (189)
-[2017.09.13-21.00.38:396][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (188)
-[2017.09.13-21.00.38:396][219]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
-[2017.09.13-21.00.38:402][219]LogModuleManager: Shutting down and abandoning module Slate (180)
-[2017.09.13-21.00.38:402][219]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module Networking (170)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module Core (166)
-[2017.09.13-21.00.38:411][219]LogModuleManager: Shutting down and abandoning module AssetRegistry (164)
-[2017.09.13-21.00.38:722][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.13-21.00.38:722][219]LogDirectoryWatcher: A directory notification for '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/' was aborted.
-[2017.09.13-21.00.38:723][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.13-21.00.38:723][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.09.13-21.00.38:734][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2017.09.13-21.00.38:736][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
-[2017.09.13-21.00.38:737][219]LogModuleManager: Shutting down and abandoning module LevelSequence (158)
-[2017.09.13-21.00.38:737][219]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
-[2017.09.13-21.00.38:737][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
-[2017.09.13-21.00.38:738][219]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
-[2017.09.13-21.00.38:739][219]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
-[2017.09.13-21.00.38:740][219]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
-[2017.09.13-21.00.38:740][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
-[2017.09.13-21.00.38:784][219]LogDerivedDataCache: Shutdown
-[2017.09.13-21.00.38:784][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
-[2017.09.13-21.00.38:784][219]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
-[2017.09.13-21.00.38:786][219]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
-[2017.09.13-21.00.38:788][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
-[2017.09.13-21.00.38:789][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
-[2017.09.13-21.00.38:789][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
-[2017.09.13-21.00.38:791][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
-[2017.09.13-21.00.38:791][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
-[2017.09.13-21.00.38:792][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
-[2017.09.13-21.00.38:792][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Messaging (103)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.09.13-21.00.38:793][219]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module InputCore (62)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module Settings (60)
-[2017.09.13-21.00.38:794][219]LogModuleManager: Shutting down and abandoning module OculusRift (58)
-[2017.09.13-21.00.38:795][219]LogModuleManager: Shutting down and abandoning module GearVRController (56)
-[2017.09.13-21.00.38:795][219]LogModuleManager: Shutting down and abandoning module GearVR (54)
-[2017.09.13-21.00.38:796][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
-[2017.09.13-21.00.38:796][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2017.09.13-21.00.38:796][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2017.09.13-21.00.38:796][219]LogOnline:Display: Unloading online subsystem: NULL
-[2017.09.13-21.00.38:798][219]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2017.09.13-21.00.38:801][219]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2017.09.13-21.00.38:801][219]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.13-21.00.38:801][219]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFE583F8D-4A9C-DF02-FE70-BDB7E3F00703%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=1672c14d48bbc1343f3215aeff9e2944%7C336ac49d5dad499fba25afa728f54427%7C9cf48cf7-3a90-4fbb-b0e7-d5319e9f67fa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.13-21.00.38:825][219]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2017.09.13-21.00.38:830][219]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (38)
-[2017.09.13-21.00.38:833][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (36)
-[2017.09.13-21.00.38:834][219]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.09.13-21.00.38:836][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.09.13-21.00.38:836][219]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.09.13-21.00.38:838][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.09.13-21.00.38:839][219]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.09.13-21.00.38:839][219]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.09.13-21.00.38:839][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.09.13-21.00.38:843][219]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.09.13-21.00.38:845][219]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.09.13-21.00.38:846][219]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.13-21.00.38:847][219]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.13-21.00.38:847][219]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.13-21.00.38:851][219]LogExit: Exiting.
-[2017.09.13-21.00.38:899][219]Log file closed, 09/14/17 06:00:38
+[2017.09.13-21.41.51:038][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.13-21.41.51:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.13-21.41.51:083][  0]LogInit: Computer: DESKTOP-G2BABS6
+[2017.09.13-21.41.51:083][  0]LogInit: User: sksn
+[2017.09.13-21.41.51:083][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.13-21.41.51:083][  0]LogInit: High frequency timer resolution =2.648439 MHz
+[2017.09.13-21.41.51:084][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.13-21.41.51:084][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.13-21.41.51:084][  0]LogMemory: Process Physical Memory: 272.72 MB used, 272.72 MB peak
+[2017.09.13-21.41.51:084][  0]LogMemory: Process Virtual Memory: 266.43 MB used, 266.43 MB peak
+[2017.09.13-21.41.51:084][  0]LogMemory: Physical Memory: 5640.25 MB used,  2476.84 MB free, 8117.09 MB total
+[2017.09.13-21.41.51:084][  0]LogMemory: Virtual Memory: 641.80 MB used,  2476.84 MB free, 134217728.00 MB total
+[2017.09.13-21.41.51:461][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.13-21.41.51:461][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.13-21.41.51:533][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.13-21.41.55:336][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.13-21.41.55:378][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.09.13-21.41.55:378][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.13-21.41.55:380][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.13-21.41.55:380][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.13-21.41.55:380][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.13-21.41.55:388][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.13-21.41.55:388][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.13-21.41.55:388][  0]LogWindows: EnumDisplayDevices:
+[2017.09.13-21.41.55:388][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.09.13-21.41.55:389][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.09.13-21.41.55:389][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.09.13-21.41.55:389][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.09.13-21.41.55:389][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.09.13-21.41.55:389][  0]LogD3D11RHI:   Driver Version: 21.20.16.4636 (internal:21.20.16.4636, unified:21.20.16.4636)
+[2017.09.13-21.41.55:389][  0]LogD3D11RHI:      Driver Date: 3-21-2017
+[2017.09.13-21.41.55:389][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.13-21.41.55:395][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.13-21.41.55:427][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.09.13-21.41.55:435][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Intermediate/Shaders/WorkingDirectory/10580/).
+[2017.09.13-21.41.55:435][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shika/AppData/Local/Temp/UnrealShaderWorkingDir/29DB51C345ED59EB3F85A0AC8A5111B8/'.
+[2017.09.13-21.41.55:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.13-21.41.58:576][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.13-21.41.58:640][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.13-21.41.58:740][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.13-21.41.58:806][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.13-21.41.58:863][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.13-21.41.58:928][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.13-21.41.58:986][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.13-21.41.59:041][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.13-21.41.59:088][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.13-21.41.59:147][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.13-21.41.59:204][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.13-21.41.59:260][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.13-21.41.59:322][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.13-21.41.59:372][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.13-21.41.59:424][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.13-21.41.59:535][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.13-21.41.59:535][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.13-21.41.59:575][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.13-21.41.59:682][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.13-21.41.59:719][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.13-21.41.59:772][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.13-21.41.59:820][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.13-21.41.59:872][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.13-21.41.59:928][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.13-21.41.59:928][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.13-21.42.00:859][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.13-21.42.01:525][  0]LogDerivedDataCache: Loaded boot cache 0.67s 90MB C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.13-21.42.01:526][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.13-21.42.01:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.13-21.42.01:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.13-21.42.01:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.13-21.42.01:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.13-21.42.01:559][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.13-21.42.01:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.13-21.42.01:593][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.13-21.42.01:599][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.13-21.42.01:634][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.13-21.42.01:634][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.13-21.42.02:772][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.13-21.42.03:033][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.13-21.42.03:320][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.13-21.42.03:379][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.13-21.42.03:436][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.13-21.42.03:436][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.13-21.42.03:436][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.13-21.42.05:015][  0]LogNetVersion: intern20170912task , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3196747740)
+[2017.09.13-21.42.05:147][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2017.09.13-21.42.05:334][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.149373 seconds
+[2017.09.13-21.42.05:342][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.13-21.42.05:342][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.13-21.42.05:342][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.13-21.42.05:442][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.13-21.42.11:632][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.13-21.42.11:676][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.13-21.42.12:601][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.13-21.42.13:199][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.13-21.42.13:391][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.13-21.42.13:448][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.13-21.42.13:503][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.13-21.42.14:337][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.13-21.42.15:095][  0]LogEngine: Initializing Engine...
+[2017.09.13-21.42.15:097][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.13-21.42.15:518][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.13-21.42.15:519][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.13-21.42.15:793][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.13-21.42.15:810][  0]LogInit: No audio devices found!
+[2017.09.13-21.42.15:864][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/shika/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.13-21.42.15:873][  0]LogInit: Texture streaming: Enabled
+[2017.09.13-21.42.15:979][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.13-21.42.16:269][  0]LogInit: Transaction tracking system initialized
+[2017.09.13-21.42.16:730][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.13-21.42.17:900][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.09.13-21.42.18:883][  0]LogConsoleResponse:Display: 
+[2017.09.13-21.42.19:355][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.13-21.42.19:355][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.13-21.42.20:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/' took 0.02s
+[2017.09.13-21.42.20:653][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.13-21.42.20:654][  0]Cmd: MAP LOAD FILE="../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.13-21.42.20:661][  0]LightingResults: New page: ライティングのビルド
+[2017.09.13-21.42.20:710][  0]MapCheck: New page: マップをチェック
+[2017.09.13-21.42.20:710][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.13-21.42.21:137][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:138][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:138][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:138][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:138][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:138][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:139][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:149][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:149][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.21:150][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.22:019][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.22:019][  0]LogLinker:Warning: CreateExport: Failed to load Parent for WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.22:314][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.13-21.42.22:340][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.13-21.42.22:354][  0]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2017.09.13-21.42.22:426][  0]MapCheck:Warning: 警告 M_Tech_Hex_Tile Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. 修正
+[2017.09.13-21.42.22:436][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.13-21.42.22:491][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.13-21.42.22:563][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 1 警告、完了に 71.166ミリ秒かかりました。
+[2017.09.13-21.42.22:578][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.925
+[2017.09.13-21.42.22:896][  0]LogCollectionManager: Loaded 0 collections in 0.002221 seconds
+[2017.09.13-21.42.23:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/Collections/' took 0.01s
+[2017.09.13-21.42.23:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Developers/sksn/Collections/' took 0.01s
+[2017.09.13-21.42.23:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shika/Documents/MyWork/Intern/intern20170912task/Content/Collections/' took 0.01s
+[2017.09.13-21.42.23:019][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.13-21.42.23:038][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2330 classes and 493 folders.
+[2017.09.13-21.42.23:143][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.09.13-21.42.23:751][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.09.13-21.42.23:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.09.13-21.42.23:974][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.13-21.42.24:009][  0]LogSlate: Took 0.011314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.13-21.42.24:046][  0]LogSlate: Took 0.034107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.13-21.42.24:054][  0]LogSlate: Took 0.006602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.13-21.42.24:070][  0]LogSlate: Took 0.007034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.13-21.42.24:350][  0]LogRenderer: Reallocating scene render targets to support 944x524 NumSamples 1 (Frame:1).
+[2017.09.13-21.42.25:458][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.09.13-21.42.25:553][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.09.13-21.42.25:553][  0]LogLoad: (Engine Initialization) Total time: 38.20 seconds
+[2017.09.13-21.42.25:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.64 seconds
+[2017.09.13-21.42.25:553][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.13-21.42.25:577][  0]LogOcInput: OculusInput pre-init called
+[2017.09.13-21.42.25:578][  0]LogHMD: Starting GearVRController plugin
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ReturnTitleButton': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ReturnGameButton': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_PauseMenu': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'K2Node_Event_InDeltaTime': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'K2Node_Event_MyGeometry': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'Tick': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'InDeltaTime': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:Tick
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'MyGeometry': Function /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C:Tick
+[2017.09.13-21.42.25:581][  0]LoadErrors:Warning: 警告 CreateExport: Failed to load Outer for resource 'UberGraphFrame': WidgetBlueprintGeneratedClass /Game/ThirdPersonBP/Blueprints/UI/PauseMenu.PauseMenu_C
+[2017.09.13-21.42.25:602][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.13-21.42.25:667][  0]LogSlate: Took 0.006116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-21.42.25:720][  1]LogAssetRegistry: Asset discovery search completed in 20.5953 seconds
+[2017.09.13-21.42.25:724][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.13-21.42.25:724][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.09.13-21.42.49:819][660]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-21.42.50:969][660]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.13-21.42.51:444][660]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 112 classes and 0 folders.
+[2017.09.13-21.42.52:657][660]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.13-21.42.52:669][660]LogSlate: Took 0.010673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.13-21.45.08:726][566]LogEditorTransaction: Undo ウィジットサイズを変更
+[2017.09.13-21.45.09:452][601]LogEditorTransaction: Undo ウィジェットを移動
+[2017.09.13-21.45.10:226][643]LogEditorTransaction: Undo ウィジェットを追加
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI_C:WidgetTree.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/PauseMenu1.PauseMenu1:WidgetTree.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/PauseMenu1.PauseMenu1_C:WidgetTree.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_0.WidgetTree_1.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_1.WidgetTree_2.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_2.WidgetTree_3.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_3.WidgetTree_4.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_4.WidgetTree_5.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_5.WidgetTree_6.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_6.WidgetTree_7.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_7.WidgetTree_8.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_8.WidgetTree_9.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_9.WidgetTree_10.CanvasPanel_0
+[2017.09.13-21.45.31:537][902]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:PauseMenu1_C_10.WidgetTree_11.CanvasPanel_0
+[2017.09.13-21.45.31:538][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/UI/GameUI.GameUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_107).  Import failed...
+[2017.09.13-21.45.31:538][902]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.09.13-21.46.08:118][ 51]BlueprintLog: New page: PauseMenu1 をコンパイル
+[2017.09.13-21.46.08:607][ 51]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.09.13-21.46.10:543][158]LogSavePackage: Save=29.86ms
+[2017.09.13-21.46.10:543][158]LogSavePackage: Moving '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/PauseMenu17309F1F145BE209ADC628F84A3F0CA4F.tmp' to '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Blueprints/UI/PauseMenu1.uasset'
+[2017.09.13-21.46.10:557][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Blueprints/UI/PauseMenu1.uasset
+[2017.09.13-21.46.19:622][374]LogTemp: Repeting last play command: 選択ビューポート
+[2017.09.13-21.46.19:826][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.13-21.46.19:832][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.13-21.46.19:837][374]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/09/14 15:46:19)
+[2017.09.13-21.46.19:837][374]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.13-21.46.19:874][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037007s)
+[2017.09.13-21.46.19:875][374]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.13-21.46.19:876][374]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2017.09.13-21.46.19:877][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039510s)
+[2017.09.13-21.46.19:983][374]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.13-21.46.19:988][374]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.14-06.46.19
+[2017.09.13-21.46.20:005][374]LogWorld: Bringing up level for play took: 0.018781
+[2017.09.13-21.46.20:215][374]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.09.13-21.46.20:234][374]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.085のプレイ イン エディタの開始時間
+[2017.09.13-21.46.20:235][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.13-21.46.20:342][374]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.13-21.46.49:894][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.13-21.46.50:046][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.13-21.46.54:062][158]LogSavePackage: Save=29.30ms
+[2017.09.13-21.46.54:062][158]LogSavePackage: Moving '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Saved/PauseMenu1BF697ACD46BB3C7AB1721C9A9CC7F982.tmp' to '../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Blueprints/UI/PauseMenu1.uasset'
+[2017.09.13-21.46.54:071][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/shika/Documents/MyWork/Intern/intern20170912task/Content/ThirdPersonBP/Blueprints/UI/PauseMenu1.uasset
