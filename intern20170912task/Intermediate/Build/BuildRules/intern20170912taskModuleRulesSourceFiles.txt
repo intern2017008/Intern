@@ -1,3 +1,0 @@
-C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Source\intern20170912task\intern20170912task.Build.cs
-C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Source\intern20170912task.Target.cs
-C:\Users\shika\Documents\MyWork\Intern\intern20170912task\Source\intern20170912taskEditor.Target.cs
